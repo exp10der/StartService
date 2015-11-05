@@ -1,4 +1,4 @@
-#include <Windows.h>
+п»ї#include <Windows.h>
 #include <iostream>
 #include <string>
 
@@ -13,7 +13,7 @@ int main()
 	SC_HANDLE service_handle = OpenService(scm_handle,
 		L"WlanSvc",
 		/*
-		* NOTE: Для теста получения ошибки
+		* NOTE: Р”Р»СЏ С‚РµСЃС‚Р° РїРѕР»СѓС‡РµРЅРёСЏ РѕС€РёР±РєРё
 		* SERVICE_QUERY_CONFIG);
 		*/
 		SERVICE_ALL_ACCESS);
